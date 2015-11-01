@@ -2,6 +2,6 @@ module Main where
 
 doubleSmallNumber x = if x > 100 then x else x*2
 
-a = [9.4,33.2,96.2,11.2,23.25] !! 1
+isGreater = [3, 2, 1] > [2, 1, 0]
 
-main = print (a)
+main = print (isGreater)
