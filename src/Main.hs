@@ -1,5 +1,5 @@
 module Main where
 
-doubleMe x = x + x
+doubleSmallNumber x = if x > 100 then x else x*2
 
-main = print (doubleMe(3))
+main = print (doubleSmallNumber(3))
