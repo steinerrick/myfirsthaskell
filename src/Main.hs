@@ -1,3 +1,5 @@
 module Main where
 
-main = print ("Hello, world!")
+doubleMe x = x + x
+
+main = print (doubleMe(3))
